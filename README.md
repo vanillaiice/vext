@@ -15,7 +15,7 @@ A program to add, replace, or remove a file extension.
 > ext --action replace --file foo.txt --extension v
 > ls
 // output:
-// foo.db
+// foo.v
 > ext --action remove --file foo.v
 > ls
 // output:
