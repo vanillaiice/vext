@@ -1,4 +1,4 @@
-# Ext
+# vext
 
 A program to add, replace, or remove file extensions.
 
