@@ -2,7 +2,7 @@
 
 A program to add, replace, or remove file extensions.
 
-# Usage
+## Usage
 
 ```
 > ls
@@ -36,7 +36,7 @@ Action to do on the file. Options for this argument include 'add', 'remove', and
 
 The extension to add or replace to the file(s).
 
-# Installation
+## Installation
 
 ```
 > git clone https://github.com/vanillaiice/v-ext
