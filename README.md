@@ -1,6 +1,6 @@
 # Ext
 
-A program to add, replace, or remove a file extension.
+A program to add, replace, or remove file extensions.
 
 # Usage
 
@@ -8,15 +8,15 @@ A program to add, replace, or remove a file extension.
 > ls
 // output:
 // foo
-> ext --action add --file foo --extension txt
+> vext --add --file foo --extension txt
 > ls
 // output:
 // foo.txt
-> ext --action replace --file foo.txt --extension v
+> vext --replace --file foo.txt --extension v
 > ls
 // output:
 // foo.v
-> ext --action remove --file foo.v
+> vext --remove --file foo.v
 > ls
 // output:
 // foo
@@ -26,7 +26,7 @@ A program to add, replace, or remove a file extension.
 
 ### ```--file``` or ```-f```
 
-Path to the file(s) on which the extension will be manipulated. This argument **must** be enclosed in single or double quotes if there are multiple files.
+Path to the file(s) on which the extension will be manipulated. This argument **must** be enclosed in quotes if there are multiple files.
 
 ### ```--action``` or ```-a```
 
@@ -55,3 +55,7 @@ The extension to add or replace to the file(s).
 ## Licence
 
 BSD-3-Clause
+
+## Author
+
+Vanillaiice
