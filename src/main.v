@@ -5,7 +5,6 @@ import flag
 import actions
 
 const (
-	empty_str   = ''
 	add_str     = 'add'
 	remove_str  = 'remove'
 	replace_str = 'replace'
@@ -35,12 +34,12 @@ fn main() {
 		exit(1)
 	}
 
-	if file == empty_str {
+	if file == '' {
 		eprintln("parameter 'file' not provided, exiting")
 		exit(1)
 	}
 
-	if extension == empty_str {
+	if extension == '' {
 		eprintln("parameter 'extension' not provided, exiting")
 		exit(1)
 	}
